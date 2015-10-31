@@ -1,6 +1,6 @@
 ##ARRAYS
 
-#Creating new empty array
+Creating new empty array
 ```ruby
 arrayExample=Array.new
 ```
