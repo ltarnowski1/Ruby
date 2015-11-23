@@ -57,3 +57,24 @@ hash = Hash.new
 }
 hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
 ```
+
+Returns true if any member of enum equals obj. Equality is tested using ==
+```ruby
+IO.constants.include? :SEEK_SET          #=> true
+IO.constants.include? :SEEK_NO_FURTHER   #=> false
+```
+
+Passes each element of the collection to the given block. The method returns true if the block returns true exactly once. If the block is not given, one? will return true only if exactly one of the collection members is true.
+```ruby
+%w{ant bear cat}.one? { |word| word.length == 4 }  #=> true
+%w{ant bear cat}.one? { |word| word.length > 4 }   #=> false
+%w{ant bear cat}.one? { |word| word.length < 4 }   #=> false
+[ nil, true, 99 ].one?                             #=> false
+[ nil, true, false ].one?                          #=> true
+```
+
+Returns two arrays, the first containing the elements of enum for which the block evaluates to true, the second containing the rest.
+If no block is given, an enumerator is returned instead.
+```ruby
+(1..6).partition { |v| v.even? }  #=> [[2, 4, 6], [1, 3, 5]]
+```
