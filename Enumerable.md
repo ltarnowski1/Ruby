@@ -31,7 +31,7 @@ If no block is given, an enumerator is returned instead.
 Passes each entry in enum to block. Returns the first for which block is not false.
 If no object matches, calls ifnone and returns its result when it is specified, or returns nil otherwise.
 If no block is given, an enumerator is returned instead.
-Warning: Detect and Find are different names for the same method
+WARNING: Detect and Find are different names for the same method
 ```ruby
 (1..10).detect   { |i| i % 5 == 0 and i % 7 == 0 }   #=> nil
 (1..100).find    { |i| i % 5 == 0 and i % 7 == 0 }   #=> 35
