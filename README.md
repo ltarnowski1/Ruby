@@ -17,6 +17,6 @@ Podręczne linki:
 1. [Learn X in Y minutes, where X = Ruby Array/Hash/Enumerable](ruby.md)
   - [x] [Array](https://github.com/ltarnowski1/PierwszeRepo/blob/master/Array.md)
   - [x] [Hash](https://github.com/ltarnowski1/PierwszeRepo/blob/master/Hash.md)
-  - [ ] [Enumerable]
+  - [x] [Enumerable](https://github.com/ltarnowski1/PierwszeRepo/blob/master/Enumerable.md)
 2. [ ] [Coś do przetestowania na początek](/)
 3. [ ] [Program/Biblioteka/Aplikacja WWW](/)
