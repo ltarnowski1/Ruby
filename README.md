@@ -18,5 +18,5 @@ Podręczne linki:
   - [x] [Array](https://github.com/ltarnowski1/PierwszeRepo/blob/master/Zadanie1/Array.md)
   - [x] [Hash](https://github.com/ltarnowski1/PierwszeRepo/blob/master/Zadanie1/Hash.md)
   - [x] [Enumerable](https://github.com/ltarnowski1/PierwszeRepo/blob/master/Zadanie1/Enumerable.md)
-2. [ ] [Coś do przetestowania na początek](/)
+2. [x] [Coś do przetestowania na początek](https://github.com/ltarnowski1/PierwszeRepo/tree/master/Zadanie2)
 3. [ ] [Program/Biblioteka/Aplikacja WWW](/)
