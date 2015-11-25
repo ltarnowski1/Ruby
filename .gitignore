@@ -1,0 +1,35 @@
+Zadanie2/*.gem
+Zadanie2/*.rbc
+Zadanie2/.config
+Zadanie2/coverage/
+Zadanie2/InstalledFiles
+Zadanie2/pkg/
+Zadanie2/spec/reports/
+Zadanie2/test/tmp/
+Zadanie2/test/version_tmp/
+Zadanie2/tmp/
+
+## Specific to RubyMotion:
+Zadanie2/.dat*
+Zadanie2/.repl_history
+Zadanie2/build/
+
+## Documentation cache and generated files:
+Zadanie2/.yardoc/
+Zadanie2/_yardoc/
+Zadanie2/doc/
+Zadanie2/rdoc/
+
+## Environment normalisation:
+Zadanie2/.bundle/
+Zadanie2/vendor/bundle
+Zadanie2/lib/bundler/man/
+
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+# Gemfile.lock
+# .ruby-version
+# .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+Zadanie2/.rvmrc
