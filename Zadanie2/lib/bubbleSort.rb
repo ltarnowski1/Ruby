@@ -1,4 +1,4 @@
-def bubblesort!(array)
+def bubble_sort!(array)
   if array.empty?
     return raise 'Array is empty'
   elsif array.length == 1

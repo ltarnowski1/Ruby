@@ -1,4 +1,4 @@
-def quicksort!(array)
+def quick_sort!(array)
   return array if array.length <= 1
 
   pivot_index = (array.length / 2).to_i
@@ -16,5 +16,5 @@ def quicksort!(array)
     end
   end
 
-  return quicksort!(lesser) + [pivot_value] + quicksort!(greater)
+  return quick_sort!(lesser) + [pivot_value] + quick_sort!(greater)
 end
