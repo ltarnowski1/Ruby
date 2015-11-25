@@ -1,4 +1,4 @@
-def insert_sort!(*array)
+def insert_sort!(array)
   if array.empty?
     return raise 'Array is empty'
   elsif array.length == 1

@@ -3,10 +3,12 @@ require_relative '../lib/quickSort'
 require_relative '../lib/insertSort'
 require 'benchmark'
 
-array5 = (1..500_000).map { rand }
-array10 = (1..1_000_000).map { rand }
+array = (1..1000).map { rand }
+#array2 = (1..10000).map { rand }
 
-Benchmark.bm(4) do |x|
-  x.report('sort!   500_000') { array5.dup.sort! }
-  x.report('sort! 1_000_000') { array10.dup.sort! }
+Benchmark.bmbm do |x|
+  x.report("sort! 1000") { array.dup.sort! }
+  x.report("insert_sort! 1000") { insert_sort!(array) }
+  x.report("bubble_sort! 1000") { bubble_sort!(array) }
+  x.report("quick_sort! 1000") { quick_sort!(array) }
 end
