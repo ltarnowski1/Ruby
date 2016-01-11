@@ -19,4 +19,4 @@ Podręczne linki:
   - [x] [Hash](https://github.com/ltarnowski1/PierwszeRepo/blob/master/Zadanie1/Hash.md)
   - [x] [Enumerable](https://github.com/ltarnowski1/PierwszeRepo/blob/master/Zadanie1/Enumerable.md)
 2. [x] [Quicksort, Insertsort, Bubblesort](https://github.com/ltarnowski1/PierwszeRepo/tree/master/Zadanie2)
-3. [ ] [Program/Biblioteka/Aplikacja WWW](/)
+3. [x] [Program do obslugi biblioteki](https://github.com/kszewczyk1/Ruby_Projekt3)
